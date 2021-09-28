@@ -29,7 +29,7 @@ let main = async () => {
             console.log(`La solución es: ${div}`)
           break;
         default: 
-        console.log("Por favor elija una opción")
+        console.log("No has introducido ningún número")
 
       }
 
