@@ -16,24 +16,24 @@ let main = async () => {
             let resta: number = nume1 - nume2
             console.log(`La solución es: ${resta}`)
 
-          break;
-  
+            break;
+
         case 3:
             let multi: number = nume1 * nume2
             console.log(`La solución es: ${multi}`)
 
-          break;
-        
+            break;
+
         case 4:
             let div: number = nume1 / nume2
             console.log(`La solución es: ${div}`)
-          break;
-        default: 
-        console.log("No has introducido ningún número")
-
-      }
+            break;
+        default:
+            console.log("No has introducido ningún número")
 
     }
+
+}
 
 
 main();
